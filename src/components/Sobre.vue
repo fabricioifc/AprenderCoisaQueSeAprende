@@ -44,7 +44,12 @@
           <b-button class="botao" variant="dark">@daniela_domingos</b-button>
         </b-col>
         <b-col>
-          <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=59" alt="Image 3"></b-img>
+          <b-img
+            thumbnail
+            fluid
+            src="https://lh3.googleusercontent.com/wOqHpFyKPj9ovmw2yYtH1XJ4SZO8ooUlKZdnZ7fpZ2Q8Al00yGG36mwDPXOhTpQDMjDtJ_H1bKCOul-DeQ=w328-h275-no"
+            alt="Image 4"
+          ></b-img>
           <b-button class="botao" variant="dark">@fabricio_bizotto</b-button>
         </b-col>
       </b-row>
