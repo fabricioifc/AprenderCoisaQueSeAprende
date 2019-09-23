@@ -1,7 +1,7 @@
 {
   "name": "ifaprender",
   "version": "1.0.0",
-  "description": "Aprender é coisa que se aprende",
+  "description": "Projeto Integrador: Aprender é Coisa que se Aprende",
   "author": "Fabricio Bizotto <fabricio.bizotto@ifc.edu.br>",
   "private": true,
   "scripts": {
@@ -12,9 +12,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "bootstrap": "4.3.1",
+    "bootstrap-vue": "2.0.0-rc.20",
+    "express": "^4.17.1",
+    "firebase": "6.1.1",
+    "vuefire": "2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
