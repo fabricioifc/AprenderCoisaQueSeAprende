@@ -31,6 +31,10 @@ export default {
   /* margin-top: 60px; */
 }
 
+.bg-dark {
+  background-color: transparent;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;

@@ -55,7 +55,5 @@ export default {
 </script>
 
 <style>
-.bg-dark {
-  background-color: transparent;
-}
+
 </style>
