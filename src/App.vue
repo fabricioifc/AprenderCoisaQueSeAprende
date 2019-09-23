@@ -32,7 +32,7 @@ export default {
 }
 
 .bg-dark {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .fade-enter-active,
