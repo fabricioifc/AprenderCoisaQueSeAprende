@@ -56,6 +56,6 @@ export default {
 
 <style>
 .bg-dark {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 </style>
