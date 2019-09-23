@@ -5,7 +5,7 @@
         <b-card-text>Esse projeto busca um entendimento sobre as diferentes formas de aprendizagem do aluno bem como proporcionar um mecanismo de entendimento ao próprio discente de suas formas de estudo através do presente site.</b-card-text>
         <b-card-text>A seguir estão os colaboradores do presente projeto. Orientandas Amanda Gatti, Maria Isabel Pitt Gatti e Giovana Maria Marconde Gonçalves, orientadora Daniela Domingos de Oliveira e coorientador Fabrício Bizotto, respectivamente.</b-card-text>
       </b-card>
-      <b-row>
+      <b-row class="mt-3">
         <b-col>
           <b-img
             thumbnail
