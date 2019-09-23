@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <div class="main" bg-variant="dark">
-      <br>
-      <div>
+    <div class="main" >
+      <b-card border-variant="light"  header="Gardner">
         <b-tabs content-class="mt-3" variant="dark">
           <b-tab title="Biografia" active>
             <b-row>
@@ -42,7 +41,7 @@
             </b-row>
           </b-tab>
         </b-tabs>
-      </div>
+      </b-card>
     </div>
   </div>
 </template>

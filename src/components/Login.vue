@@ -24,7 +24,7 @@
       <b-button type="submit" variant="dark">Enviar</b-button>
     </b-form>
     <br>
-    <b-card border-variant="light" bg-variant="dark" align="justify">
+    <b-card border-variant="light"  align="justify">
       <b-card-text>Não possui cadastro? Clique no botão abaixo:</b-card-text>
       <b-button variant="info" to="Cadastro">Cadastrar-se</b-button>
     </b-card>

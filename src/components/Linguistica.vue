@@ -2,7 +2,7 @@
   <b-container fluid class="main">
     <b-card
       border-variant="light"
-      bg-variant="dark"
+      
       header="Inteligência Linguística"
       align="center"
     >

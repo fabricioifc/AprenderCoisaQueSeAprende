@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-card border-variant="light" bg-variant="dark" align="justify" header="Cadastro">
+    <b-card border-variant="light"  align="justify" header="Cadastro">
       <b-alert>{{mensagem}}</b-alert>
       <b-form @submit="onSubmit">
         <b-form-group id="input-group-1" label="Email :" label-for="input-1">

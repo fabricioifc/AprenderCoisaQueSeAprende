@@ -24,7 +24,7 @@
           <hr v-if="iniciou && finalizou">
           <b-card
             border-variant="light"
-            bg-variant="dark"
+            
             align="center"
             v-if="!iniciou"
             class="texto"

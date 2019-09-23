@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <b-container fluid class="main">
-      <b-card bg-variant="dark">
+      <b-card >
         <h1>Problemas de Memória</h1>
         <b-row>
           <b-col>
