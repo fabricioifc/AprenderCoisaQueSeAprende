@@ -1,5 +1,6 @@
 <template>
   <b-container>
+    <b-alert>{{mensagem}}</b-alert>
     <b-form @submit="onSubmit">
       <b-form-group id="input-group-1" label="Email address:" label-for="input-1">
         <b-form-input
@@ -23,8 +24,8 @@
 
       <b-button type="submit" variant="dark">Enviar</b-button>
     </b-form>
-    <br>
-    <b-card border-variant="light"  align="justify">
+    <br />
+    <b-card border-variant="light" align="justify">
       <b-card-text>Não possui cadastro? Clique no botão abaixo:</b-card-text>
       <b-button variant="info" to="Cadastro">Cadastrar-se</b-button>
     </b-card>
@@ -37,19 +38,23 @@ export default {
   data() {
     return {
       form: {
-        email: "teste@gmail.com",
-        password: "102030"
-      }
+        email: "",
+        password: ""
+      },
+      mensagem: ""
     };
   },
   methods: {
     onSubmit(evento) {
+      this.mensagem = "Acessando...";
       auth
         .signInWithEmailAndPassword(this.form.email, this.form.password)
         .then(user => {
+          this.mensagem = user;
           this.$router.push({ path: "/" });
         })
         .catch(erro => {
+          this.mensagem = erro;
           console.log(erro);
         });
 
