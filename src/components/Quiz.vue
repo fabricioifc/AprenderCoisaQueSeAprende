@@ -21,14 +21,8 @@
           </div>
         </b-col>
         <b-col align-h="center" cols="12">
-          <hr v-if="iniciou && finalizou">
-          <b-card
-            border-variant="light"
-            
-            align="center"
-            v-if="!iniciou"
-            class="texto"
-          >
+          <hr v-if="iniciou && finalizou" />
+          <b-card border-variant="light" align="center" v-if="!iniciou" class="texto">
             <b-card-text
               class="letras"
             >Você quer saber de que maneira você estuda segundo a sua inteligência? Faça o quiz abaixo!</b-card-text>
@@ -38,7 +32,7 @@
             block
             size="lg"
             @click="iniciarQuiz"
-            variant="info"
+            variant="dark"
             v-if="!iniciou"
           >Iniciar o Quiz</b-button>
           <b-button

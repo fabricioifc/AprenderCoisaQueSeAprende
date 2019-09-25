@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-alert>{{mensagem}}</b-alert>
+    <b-alert variant="dark" :show="mensagem != ''">{{mensagem}}</b-alert>
     <b-form @submit="onSubmit">
       <b-form-group id="input-group-1" label="Email address:" label-for="input-1">
         <b-form-input
@@ -46,15 +46,15 @@ export default {
   },
   methods: {
     onSubmit(evento) {
-      this.mensagem = "Acessando...";
+      this.mensagem = "";
       auth
         .signInWithEmailAndPassword(this.form.email, this.form.password)
         .then(user => {
-          this.mensagem = user;
+          this.mensagem = "";
           this.$router.push({ path: "/" });
         })
         .catch(erro => {
-          this.mensagem = erro;
+          this.mensagem = erro.message;
           console.log(erro);
         });
 
