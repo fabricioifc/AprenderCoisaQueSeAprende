@@ -1,7 +1,7 @@
 <template>
   <b-container>
-    <b-card border-variant="light"  align="justify" header="Cadastro">
-      <b-alert>{{mensagem}}</b-alert>
+    <b-card border-variant="light" align="justify" header="Cadastro">
+      <b-alert variant="dark" :show="mensagem != ''">{{mensagem}}</b-alert>
       <b-form @submit="onSubmit">
         <b-form-group id="input-group-1" label="Email :" label-for="input-1">
           <b-form-input
@@ -47,7 +47,7 @@ export default {
       auth
         .createUserWithEmailAndPassword(this.form.email, this.form.password)
         .then(user => {
-          this.mensagem = user;
+          this.mensagem = "";
           //          user
           //            .updateProfile({
           //              displayName: this.form.nome
@@ -61,7 +61,7 @@ export default {
           this.$router.push({ path: "/" });
         })
         .catch(erro => {
-          this.mensagem = erro;
+          this.mensagem = erro.message;
           console.log(erro);
         });
 
