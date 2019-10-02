@@ -10,7 +10,7 @@
           <b-img
             thumbnail
             fluid
-            src="https://lh3.googleusercontent.com/SWRzM_gk4yMptOLn-Mpa8ukvZ_7LyOojk1xYm_X3BjZ8MOJSKL8ZoXaeFdRp7xLHofODeKlXzVK7Ou1zJ8agwc4GPh10Uup9Z6S0IhYpsyn9KenOl3iobE87aBeQDDydJclAMz2JLzC6TBjQzAiHi6VeMI51vaVhLX3sWtkKvEndR9A67EZ8D1eegrwoxHxQSS6JAkw2Pjb_o_GLlRcNPadNYpRgy0xi6IVKFFKkvWk__oecEwBTlcZfADNggkmuyVMZj8jhky94cKdX6ycMfeUF2dZXLyhBEJOKCLrU6pp2KErfRwTJNc2QjC8p4bPYWHz0qoQn5_JKe_qEdTNJ3OBzVqVwk0lmrW6uK0dF0aL7Uj8BYjSpBu-DO7YNMCBi4eElWPZoZ7bgwbL0ZG16ci9RFufjUkIUN6NW5ddpJgHbY-76N7mMl1bAoEfDHSCTJ_pSiEUFT6wgr1rcZKgS6edgxg7IntVD5AKisIWyrxz-vpHdVCz8S6mFObLBjVdMRShch0M5zE9mni_VLl6sT6Smk7OZ40TUmLOtvMmdHY631LR0GQ-eunSPZE-Lg347STgZKUK9-zayyLAV9JKC3W9wIqWiuHEpfoyUqzBKQZ-yFq55TqCdibh9DyaW9sD8fmBv1kX63kI5fFW4Z5fBDV7cAUs5Ga_qLXyWRn99-uEP7JR2nJ-Ibw=w317-h267-no"
+            src="https://lh3.googleusercontent.com/p/AF1QipMMyJFvtcuFFkOWAG_fk28cukTeZNy2l2wwM8zT=s512-p-qv=putthfnpdindd7bcmfg9ov932jv0cobt6,m=201059ecc086d4b77dd085e97cff31b5,x=,t=41-iv4342?key=c2x2MW5WSjVLcGc2RWpnOEJDajhlQXdVZHA5ZUp3"
             alt="Image 1"
           ></b-img>
           <b-button class="botao" variant="dark">@amandag_ag</b-button>
