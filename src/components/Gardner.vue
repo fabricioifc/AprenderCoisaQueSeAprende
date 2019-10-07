@@ -17,9 +17,9 @@
             <b-row>
               <b-col>
                 <img src="../assets/download.jpg" img-alt="Image">
+                <p>Você já pensou que diversas pessoas que são ótimos alunos durante a escola podem não obter sucesso em sua vida? Ou o contrário, pessoas que fracassaram em sua vida acadêmica podem obter grande êxito no decorrer da sua vida?</p>
               </b-col>
               <b-col>
-                <p>Você já pensou que diversas pessoas que são ótimos alunos durante a escola podem não obter sucesso em sua vida? Ou o contrário, pessoas que fracassaram em sua vida acadêmica podem obter grande êxito no decorrer da sua vida?</p>
                 <p>Howard Gardner percebeu exatamente isso e começou a desenvolver uma pesquisa, para sanar sua curiosidade do porquê desse fenômeno. Ao fim dessa pesquisa, concluiu que as técnicas usadas na escola não eram eficientes, pois estas levavam em consideração apenas a Teoria do QI, de Alfred Binet, a qual demonstrou ser uma teoria pouco abarcadora, uma vez que muitas pessoas não se encaixavam nessa teoria. Dessa forma, Gardner criou a Teoria das Inteligências Múltiplas, na qual afirma que as pessoas possuem diversos tipos de inteligências ou dons.</p>
               </b-col>
               <b-col>

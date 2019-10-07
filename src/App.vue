@@ -77,7 +77,7 @@ div.masthead .device-container .screen img {
 @media (min-width: 992px) {
   div.masthead {
     height: 100vh;
-    min-height: 775px;
+    min-height: 875px;
     padding-top: 0;
     padding-bottom: 0;
   }
