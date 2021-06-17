@@ -2,7 +2,7 @@ const dados = [
   {
     id: 1,
     titulo: "Linguística",
-    descricao: "Gosto de escrever textis e publica-los.",
+    descricao: "Gosto de escrever textos e publicá-los.",
     tipo: "linguistica"
   },
   {
@@ -95,7 +95,7 @@ const dados = [
   {
     id: 16,
     titulo: "Interpessoal",
-    descricao: "Assumo fequentemente papéis de liderança.",
+    descricao: "Assumo frequentemente papéis de liderança.",
     tipo: "interpessoal"
   },
   {
@@ -114,7 +114,7 @@ const dados = [
     id: 19,
     titulo: "Interpessoal",
     descricao:
-      "Manejo-me com desenvlotura em um grupo grande de pessoas ou em uma festa com pessoas que não conheço",
+      "Manejo-me com desenvoltura em um grupo grande de pessoas ou em uma festa com pessoas que não conheço",
     tipo: "interpessoal"
   },
   {
@@ -153,7 +153,7 @@ const dados = [
     id: 25,
     titulo: "Intrapessoal",
     descricao:
-      "Gosto de cirar e adaptar os materiais para os meus estudos com frequência.",
+      "Gosto de criar e adaptar os materiais para os meus estudos com frequência.",
     tipo: "intrapessoal"
   },
   {
@@ -166,7 +166,7 @@ const dados = [
     id: 27,
     titulo: "Intrapessoal",
     descricao:
-      "Os valores que orientem minha vida e atividades estão claros para mim, e consigo expressa-los.",
+      "Os valores que orientem minha vida e atividades estão claros para mim, e consigo expressá-los.",
     tipo: "intrapessoal"
   },
   {
@@ -218,7 +218,7 @@ const dados = [
     id: 35,
     titulo: "Lógica-Matemática",
     descricao:
-      "Acredito que a maioria das coisas tem uma explicação lógca ou racional.",
+      "Acredito que a maioria das coisas tem uma explicação lógica ou racional.",
     tipo: "lógica"
   },
   {
@@ -243,34 +243,34 @@ const dados = [
     id: 39,
     titulo: "Lógica-Matemática",
     descricao:
-      "Gosto quando os professores usam atividades de reslução de problemas nas aulas.",
+      "Gosto quando os professores usam atividades de resolução de problemas nas aulas.",
     tipo: "lógica"
   },
   {
     id: 40,
     titulo: "Lógica-Matemática",
     descricao:
-      "Gosto quando as aulas são unifermes quando já sei o que esperar, em termos de regras e rotinas.",
+      "Gosto quando as aulas são uniformes quando já sei o que esperar, em termos de regras e rotinas.",
     tipo: "lógica"
   },
   {
     id: 41,
     titulo: "Musical",
     descricao:
-      "Tenho uma voz bem expressiva, varioando em intensidade, tom e ênfase.",
+      "Tenho uma voz bem expressiva, variando em intensidade, tom e ênfase.",
     tipo: "musical"
   },
   {
     id: 42,
     titulo: "Musical",
     descricao:
-      "Gosto quando os professores usam musicas em seus planos de aulas.",
+      "Gosto quando os professores usam músicas em seus planos de aulas.",
     tipo: "musical"
   },
   {
     id: 43,
     titulo: "Musical",
-    descricao: "Consigo identificar se alguem canta de forma desafinada.",
+    descricao: "Consigo identificar se alguém canta de forma desafinada.",
     tipo: "musical"
   },
   {
@@ -370,7 +370,7 @@ const dados = [
     id: 59,
     titulo: "Corporal-Cinestésica",
     descricao:
-      "Gosto quando os professores propõe atividades em sala que façam eu me movimentar.",
+      "Gosto quando os professores propõem atividades em sala que façam eu me movimentar.",
     tipo: "corporal"
   },
   {
@@ -413,14 +413,14 @@ const dados = [
   {
     id: 66,
     titulo: "Visual-Espacial",
-    descricao: "Gosto de ler atigos com ilustrações.",
+    descricao: "Gosto de ler artigos com ilustrações.",
     tipo: "visual"
   },
   {
     id: 67,
     titulo: "Visual-Espacial",
     descricao:
-      "Gosto de livros didaticos que contém ilustrações, gráficos, quadros e figuras.",
+      "Gosto de livros didáticos que contém ilustrações, gráficos, quadros e figuras.",
     tipo: "visual"
   },
   {
